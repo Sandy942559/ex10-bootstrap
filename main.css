@@ -1,0 +1,54 @@
+.person {
+    border: 10px solid transparent;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.person:hover {
+    border-color: rgba(128, 128, 128, 0.72);
+}
+
+.carousel-inner img {
+    height: auto !important;
+    /*最重要的*/
+    width: 100%;
+}
+
+.bg-1 {
+    background-color: #666;
+}
+
+.bg-1 h3,
+.bg-1 p {
+    color: #fff;
+}
+
+.bg-1 h3 {
+    padding-top: 50px;
+}
+
+.bg-1 p {
+    padding: 40px 0px;
+}
+
+.thumbnail p {
+    color: #000;
+    line-height: 30px;
+}
+
+.thumbnail button {
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.thumbnail button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.footer{
+    background-color: #333;
+    height: 150px;
+    color: #fff;
+    line-height: 150px;
+}
